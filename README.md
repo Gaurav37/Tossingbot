@@ -6,4 +6,5 @@ I wish to add KDL inverse kinematics control so that it can automatically reach 
 In future I can also experiment control using dq/dt method using only velocity control and no position control as explained in report and presentation.
 
 In order to run this file, you may reqire to install universal robots repo.
-/home/gaurav/Videos/Screencast from 05-07-2022 02:28:41 AM.webm
+
+https://user-images.githubusercontent.com/19994641/167242326-bed3da44-4e2a-461c-a291-e9226321722d.mp4
