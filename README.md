@@ -1,4 +1,4 @@
-# Tossingbot
+# Tossingbot Experiments
 
 The current script is a demo showing joint position control and velocity control. It rotates around shoulder pan joint and then through velocity control moves shoulder lift joint and elbow joint( our prime joint using which we want to throw projectiles ).
 
