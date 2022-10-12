@@ -12,5 +12,7 @@ In order to run this file, you may reqire to install universal robots repo.
 In below video arm rotates a little and then moves with very high velocity as we have specified.
 
 https://github.com/Gaurav37/Tossingbot/blob/70d01d3ba0f4327a0f64c9c28dd35d5c39127a34/Slow%20circle.mp4
+
 https://github.com/Gaurav37/Tossingbot/blob/70d01d3ba0f4327a0f64c9c28dd35d5c39127a34/Fast%20Circle.mp4
+
 https://user-images.githubusercontent.com/19994641/167242326-bed3da44-4e2a-461c-a291-e9226321722d.mp4
