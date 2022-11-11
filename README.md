@@ -6,6 +6,7 @@ There are many programmer friendly manipulator arms available in market like Kin
 Here's my learning, observations and results:
 ## Milestones
 1) At first I just tried to implement pick and place 
+
 https://user-images.githubusercontent.com/19994641/196595255-65a53455-0711-4ba8-aeca-99464495662d.mp4
 
 2) For velocity control I tried different config files and different controllers and finally with joint_group_velocity_controller I was able to control arm joint velocity as can be seen in below 2 videos for slow and fast velocities.
@@ -13,6 +14,7 @@ https://user-images.githubusercontent.com/19994641/196595255-65a53455-0711-4ba8-
 https://user-images.githubusercontent.com/19994641/196595095-59f4c03c-40ac-4674-ab55-d96e0e965ddb.mp4
 
 https://user-images.githubusercontent.com/19994641/196595136-1954a252-dcd1-4fd1-adf7-8c976aaeae1a.mp4
+
 3) Then my plan was to control all arm movements with velocity controller and I tried to write RRT from scratch and control arm using RRT but with differential joint velocity jacobian method, however there were problems related to cspace.
 ### Observations
 I found that although joint_group_velocity_control worked through command line rostopic publishing it gave some problem if I tried to do it through python program. So after alot of experimentation finally I found sweet spot of another velocity controller and instead of controlling arm movement completely through velocity controller(using RRT), it seemed a better option to use multiple controllers.
